@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  height: 5px; 
+  width: 30%;
+  background-color: red;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.photo {
+  height: 500px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.test-photo {
+  background-color: red;
+  height: 450px;
+  width: 300px;
+}
