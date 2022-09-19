@@ -28,6 +28,7 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  margin-top: 10px;
 }
 .test-photo {
   background-color: red;
@@ -36,10 +37,24 @@
 }
 
 .gallery-photo {
-  width: 90%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  margin-top: 10px;
 }
 
 .container {
   padding: 0px;
+  margin-bottom: -150px;
+}
+
+.row {
+  margin-bottom: -150px;
+}
+
+.bottom-logo {
+  position: relative;
+  left: 55%;
+  width: 20%;
+  max-width: 200px;
 }
